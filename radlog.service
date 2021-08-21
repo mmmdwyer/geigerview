@@ -1,0 +1,7 @@
+[Unit]
+Description=Geiger Counter Data Logger
+
+[Service]
+Type=simple
+ExecStart=/opt/radlog/radlog.py
+Restart=on-failure
